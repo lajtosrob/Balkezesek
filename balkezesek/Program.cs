@@ -74,7 +74,7 @@ class Program
 
         int evszam;
         bool rosszSzam = true;
-        Console.Write("Kérek egy 1990 és 1999 közötti évszámot!: ");
+        Console.Write("5. feladat: \nKérek egy 1990 és 1999 közötti évszámot!: ");
         do
         {
             evszam =  int.Parse(Console.ReadLine());
@@ -92,7 +92,7 @@ class Program
 
         List<Balkezes> evszamBalkezes = balkezesek.Where(x => x.Elso.Year <= evszam && x.Utolso.Year >= evszam).ToList();
 
-        Console.WriteLine(Math.Round(evszamBalkezes.Average(x => (x.Suly)), 2));
+        Console.WriteLine($"6. feladat: {Math.Round(evszamBalkezes.Average(x => (x.Suly)), 2)} font");
 
         
     }
