@@ -1,0 +1,89 @@
+KORLATOZOTT TERIESZrESL:
+
+ 
+
+3. feladat Összesen: 40 pont
+
+Programozás
+
+Balkezesek
+
+A következő feladatban az észak-amerikai baseballbajnoksigokban 1990 és 1999 között
+pályára lépő, bal kézzel dobó sportolók adatait fartalmazó szöveges állományból kell
+adarokat kinyernie.
+
+A megoldás során vegye figyelembe a kövelkezőket
+
+o A képernyőre irást igénylő részfeladatok eredményének megjelenítése előtt írja a
+képernyőre a feladat sorszámát (például: 3. feladat:)!
+o Az egyes feladatokban a kiírásokat a minta szerint készítse el!
+o z ékezetmentes ezonosítók és kiírások is elfogadottak.
+o A progam megírásakor az állományban lévő adatok helyes szerkezetét nem kell
+ellenőríznie, feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak 
+megfelelnek.
+o Megoldását úgy készítse el, hogy az azonos szerkezetű, de tetszőleges bemeneti
+adatok mellett is helyes eredményt adjon!
+
+ 
+A balkezesek.csv UTF-8 kódolású forrásállomány soraiban a következő sorrendben
+találja meg az adatokat:
+ 
+- a játékos neve(név), például:Jim Abbott
+- a játékos első pályára lépésének dátuma(első), például: 1989-04-08
+- a játékos utolsó pályára lépésének dátuma(utolsó), például: 1999-07-21 
+- a játékos súlya, fontban(súly), egész érték, például: 200
+- a játékos magassága, inchben(magasság), egész érték, például: 75 
+
+Az állomány első sora a mezőneveket tartalmazza, az adatokat pontosvesszővel választottuk el.
+
+1. Készítsen konzolalkalmazást (projektet) a következő feladatok megoldásához,
+amelynek forráskódját balkezesek néven mentse el!
+ 
+2. Olvassa be a balkezesek.csv állomány sorait és tárolja az adatokat egy olyan 
+összetett adatszerkezetben (pl. vektor, lista stb.), amely használatával a további
+feladatok megoldhatók! Ügyeljen arra, hogy az állomány első sora az adatok fejlécét tartalmazza! 
+
+3. Határozza meg és írja ki a képernyőre a minta szerint, hogy hány adatsor található a forrásállományban!
+
+4. Határozza meg, és írja ki a minta szerint, azoknak a játékosoknak a nevét és
+testmagasságát centiméterben (1 inch = 2,54 cm), akik utoljára 1999 októberében 
+léptek pályára! Az eredményt egy tizedesjegyre kerekítve írja ki képernyőre!
+
+5. Kérjen be a felhasználótól egy évszámot a minta szerint! Az évszámra teljesülni kell
+az 1990 <= évszám <= 1999 feltételnek, amennyiben a felhasználó hibás évszámot 
+adott meg, írja ki a "Hibás adat, kérek egy 1990 és 1999 közötti évszámot!"
+hibaüzenetet és kérje be újra! Feltételezheti, hogy az inputadat konvertálható pozitív
+egész számra.
+
+6. Határozza meg és írja ki a minta szerint, mennyi az átlagsúlya a játékosoknak, akik az 
+előző feladatban bekért évben pályára léptek! Az eredményt két tizedesjegyre 
+kerekítve írja ki a képernyőre! Feltételezheti, hogy az első és az utolsó pályára lépés 
+dátuma között minden évben játszottak a játékosok. Ha az előző feladatot nem tudta
+megoldani, akkor dolgozzon az 1995-ös évvel!
+
+Minta:
+
+3. feladat: 386
+4. feladat: 
+	Paul Assenmacher, 190,5 cm
+	Brent Billingsley, 188,0 cm
+	Billy Brewer, 185,4 cm
+	Derrin Ebert, 190,5 cm
+	Reggie Jefferson, 193,0 cm
+	Doug Johns, 188,0 cm
+	Tim Kubinski, 193,0 cm
+	Alvin Morman, 190,5 cm
+	J. R. Phillips, 188,0 cm
+	Roberto Ramirez, 182,9 cm
+	Anthony Shumaker, 195,5 cm
+	Steve Sinclair, 188,0 cm
+	Darryl Strawberry, 198,1 cm
+5. feladat: 
+Kérek egy 1990 és 1990 közötti évszámot! 1900
+Hibás adat! Kérek egy 1990 és 1999 közötti évszámot: 1988
+Hibás adat! Kérek egy 1990 és 1999 közötti évszámot: 1989
+Hibás adat! Kérek egy 1990 és 1999 közötti évszámot: 2000
+Hibás adat! Kérek egy 1990 és 1999 közötti évszámot: 2050
+Hibás adat! Kérek egy 1990 és 1999 közötti évszámot: 1995
+6. feladat: 188,84 font
+
